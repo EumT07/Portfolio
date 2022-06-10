@@ -24,23 +24,36 @@
     <header id="header">
         <section class="back-picture_container">
             <div class="img-border">
-                <img src="img/Eumt07color2.jpeg" alt="Eublan">
+                <img src="image/Eumt07color2.jpeg" alt="Eublan">
             </div>
         </section>
         <section class="info_container">
             <h1>Hi..!!</h1>
-            <h2>Eublan Mata</h2>
+            <h2>I'm Eublan Mata</h2>
             <p>I'm Maintenance Engineer and web developer as well, from Venezuela, I'm currently getting knowledge in order to create cool stuff, I'm self-taught student trying to know all the good things that tech world can give us.</p>
         </section>
-        <!-- socialmedia -->
-        <div class="social-media">
-            <ul class="icons">
-                <li><a target="_blank" href="https://twitter.com/EumT07"><i class="fab fa-twitter"></i></a></li>
-                <li><a target="_blank" href="https://github.com/EumT07"><i class="fab fa-github"></i></a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/eublan-mata-060227161/"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-        </div>
-        <!-- Dark mode -->
+        <section >
+            <!-- About me -->
+            <div class="about__container" id="aboutMe">
+                <i class="fas fa-code"></i>
+            </div>
+            <!-- About me modal -->
+            <div class="about__modal">
+                <div class="about__modal_info" >
+                    <h2>About me</h2>
+
+                </div>
+                <button class="about__modalBtn">X</button>
+            </div>
+            <!-- socialmedia -->
+            <div class="social-media">
+                <ul class="icons">
+                    <li><a target="_blank" href="https://twitter.com/EumT07"><i class="fab fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://github.com/EumT07"><i class="fab fa-github"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/eublan-mata-060227161/"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <!-- Dark mode -->
         <div class="dark-container">
             <input type="checkbox" class="checkbox" id="chk">
             <label for="chk" class="label-container">
@@ -53,6 +66,7 @@
         <div class="arrow-down">
             <a href="#projects"><i class="fas fa-arrow-down"></i></a>
         </div>
+        </section>
     </header>
     <!-- body / Projects -->
     <main>
@@ -70,7 +84,7 @@
         </section>
     </main>
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" id="showBtnUp">
         <div class="personal-info">
             <h3>eublanmata@gmail.com <span  id="copy"><i class="fas fa-copy"></i></span> </h3>
             <!-- <ul class="list-socialmedia">
@@ -79,7 +93,7 @@
                 <li><i class="fab fa-linkedin"></i></li>
             </ul> -->
         </div>
-        <div class="arrow-up">
+        <div class="arrow-up" id="btnUp">
             <a href="#header"><i class="fas fa-arrow-up"></i></a>
         </div>
         <p>All rights reserved © Copyright 2022 - Eublan Mata</p>
