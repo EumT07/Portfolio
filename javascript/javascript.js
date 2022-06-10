@@ -22,9 +22,21 @@ showBtn.addEventListener("mouseleave", ()=>{
 }); 
 
 
+// About Modal Content
+const aboutMe = document.getElementById("aboutMe");
+const aboutModalContent = document.getElementById("aboutModalContent");
+const btnAboutModal = document.querySelector(".about__modalBtn");
 
-
-
+//Open
+aboutMe.addEventListener("click", ()=>{
+    aboutModalContent.style.display = "block";
+});
+//Close
+btnAboutModal.addEventListener("click",(e)=>{
+    if(e.target.classList.contains("close")){
+        aboutModalContent.style.display = "none";
+    }
+})
 
 
 

@@ -99,7 +99,7 @@ header{
 }
 /* About me Modal */
 .about__modal{
-    display: block;
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -107,6 +107,7 @@ header{
     height: 100%;
     z-index: 10;
     background-color: rgba(0,0,0,0.5);
+    transition: 1s ease-in-out;
 }
 .about__modal_info{
     position: absolute;
@@ -135,7 +136,15 @@ header{
 .about__modal_info .divSkills{
     text-align: center;
 }
-/* .about__modalBtn{} */
+.about__modalBtn{
+    background-color: #ffff00;
+    color: #000;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
 /*Vertical Social-media*/
 .social-media{
     position: fixed;
