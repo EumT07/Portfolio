@@ -119,8 +119,23 @@ header{
     height: 80%;
     border-radius: 20px;
     background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    text-align: justify;
 }
-.about__modalBtn{}
+.about__modal_info h2{
+    margin: 20px;
+}
+.about__modal_info p{
+    margin: 10px;
+}
+.about__modal_info .divSkills{
+    text-align: center;
+}
+/* .about__modalBtn{} */
 /*Vertical Social-media*/
 .social-media{
     position: fixed;
