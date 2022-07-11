@@ -9,6 +9,7 @@
     <title>Eumt07</title>
     <!-- Css link -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
     <!-- Fontawesome link  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
     <!-- Google Fonts link -->
@@ -23,20 +24,26 @@
     <!-- Header  -->
     <header id="header">
         <section class="back-picture_container">
-            <div class="img-border">
-                <img src="image/Eumt07color2.jpeg" alt="Eublan">
+            <div class="wraper_img_icos">
+                <div class="img-border">
+                    <img src="image/Eumt07color2.jpeg" alt="Eublan">
+                    <div class="about__container" id="aboutMe_btn">
+                        <i class="fas fa-address-card"></i>
+                    </div>
+                    <div class="skill__container" id="skills_Btn">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
             </div>
+            
         </section>
         <section class="info_container">
             <h1>Hi..!!</h1>
             <h2>I'm Eublan Mata</h2>
-            <p>I'm Maintenance Engineer and web developer as well, from Venezuela, I'm currently getting knowledge in order to create cool stuff, I'm self-taught student trying to know all the good things that tech world can give us.</p>
+            <p>I'm Maintenance Engineer and web developer as well, from Venezuela, I'm currently getting knowledge by a self-taught student.</p>
         </section>
-        <section >
+        <section class="wraper_icons">
             <!-- About me -->
-            <div class="about__container" id="aboutMe">
-                <i class="fas fa-code"></i>
-            </div>
             <!-- About me modal -->
             <div class="about__modal" id="aboutModalContent">
                 <div class="about__modal_info" >
@@ -50,27 +57,31 @@
                     <p>
                         My interest in technology is to be able to do something useful for people, currently with my knowledge about maintenance I am learning different programming languages, and resources, in order to implement and use both careers, to develop different strategies to help people or enterprises with a good maintenance gestion. 
                     </p>
-                    <div class="divSkills">
-                        <h3>Skills</h3>
-                        <div class="Progrm_Lang">
-                            <h4>Programming Languages</h4>
-                            <p>HTML CSS SASS Javascript Node js Express</p>
-                        </div>
-                        <div class="current_Lang">
-                            <h4>Current Learning</h4>
-                            <p>Python Mokoto</p>
-                        </div>
-                        <div class="interest_Lang">
-                            <h4>I'm interesting in learning</h4>
-                            <p>React C# C++ AWS BlackChain technology</p>
-                        </div>
-                        <div class="Lang">
-                            <h4>Idomatic Language</h4>
-                            <p>English: B1/B2 Portuguese: Currently Learning</p>
-                        </div>
-                    </div>
-                    <span  class="about__modalBtn close">Go out</span>
+                    <span  class="about_close_btn close">Go out</span>
                 </div>
+            </div>
+            <!-- Skills -->
+            <div class="about__modal" id="skillModalContent">
+                <div class="skills__modal_info">
+                    <h3>Skills</h3>
+                    <div class="Progrm_Lang">
+                        <h4>Programming Languages</h4>
+                        <p>HTML CSS SASS Javascript Node js Express</p>
+                    </div>
+                    <div class="current_Lang">
+                        <h4>Current Learning</h4>
+                        <p>Python Mokoto</p>
+                    </div>
+                    <div class="interest_Lang">
+                        <h4>I'm interesting in learning</h4>
+                        <p>React C# C++ AWS BlackChain technology</p>
+                    </div>
+                    <div class="Lang">
+                        <h4>Idomatic Language</h4>
+                        <p>English: B1/B2 Portuguese: Currently Learning</p>
+                    </div>
+                    <span  class="skills_close_btn close">Go out</span>
+                </div> 
             </div>
             <!-- socialmedia -->
             <div class="social-media">
@@ -80,19 +91,20 @@
                     <li><a target="_blank" href="https://www.linkedin.com/in/eublan-mata-060227161/"><i class="fab fa-linkedin"></i></a></li>
                 </ul>
             </div>
+            
             <!-- Dark mode -->
-        <div class="dark-container">
+            <div class="dark-container">
             <input type="checkbox" class="checkbox" id="chk">
             <label for="chk" class="label-container">
                 <i class="fa fa-moon"></i>
                 <i class="fa fa-sun"></i>
                 <div class="ball"></div>
             </label>
-        </div>
-        <!-- Arro-donw -->
-        <div class="arrow-down">
+            </div>
+            <!-- Arro-donw -->
+            <div class="arrow-down">
             <a href="#projects"><i class="fas fa-arrow-down"></i></a>
-        </div>
+            </div>
         </section>
     </header>
     <!-- body / Projects -->
