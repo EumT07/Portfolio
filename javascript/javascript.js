@@ -45,11 +45,11 @@ closeBtn_aboutme.addEventListener("click",(e)=>{
 const skills_Btn = document.getElementById("skills_Btn");
 const skillModalContent = document.getElementById("skillModalContent");
 const closeBtn_skills = document.querySelector(".skills_close_btn");
-
+//Open
 skills_Btn.addEventListener("click", ()=>{
     skillModalContent.style.display = "block";
 })
-
+//Close
 closeBtn_skills.addEventListener("click", (e)=>{
     if(e.target.classList.contains("close")){
         skillModalContent.style.display = "none";
