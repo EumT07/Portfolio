@@ -56,6 +56,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 .about__container i{
     padding: auto;
@@ -75,6 +76,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 .skill__container i{
     padding: auto;
